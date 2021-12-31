@@ -1,5 +1,7 @@
 import React from 'react'
 import POPOSSpace from './POPOSSpace';
+import './POPOSList.css'
+
 
 
 function POPOSList() {
@@ -7,18 +9,18 @@ function POPOSList() {
         <div className = "POPOSList">
             <POPOSSpace
                name ="Mexico City Street" // name 
-               address ="Avenida Juarez" // address
+               address ="27 Avenida Juarez" // address
                image ="mexico_city_guide_mexico.jpeg" // image
             />
             <POPOSSpace
-               name ="San Francisco Beach" // name 
+               name ="San Francisco Park" // name 
                address ="1234 Beach rd." // address
                image ="sanfrancisco.jpeg" // image
             />
             <POPOSSpace
-               name ="Modern Public Space Pond" // name 
+               name ="Tokyo Streets" // name 
                address ="29 Manga St." // address
-               image ="modernpond.jpeg" // image
+               image ="tokyostreet4.jpeg" // image
             />
             <POPOSSpace
                name ="Leamington Marina" // name 
@@ -26,14 +28,14 @@ function POPOSList() {
                image ="leamingtonmarina.jpeg" // image
             />
             <POPOSSpace
-               name ="Japan Public Park" // name 
-               address ="44 Apple Crt." // address
-               image ="publicpark.jpeg" // image
+               name ="Canals of Venice" // name 
+               address ="Riva del vin " // address
+               image ="venice.jpeg" // image
             />
             <POPOSSpace
                name ="Times Square" // name 
                address ="42nd St." // address
-               image ="newyork.jpeg" // image
+               image ="timesquare.jpeg" // image
             />
         </div>
     )
